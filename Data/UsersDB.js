@@ -70,21 +70,4 @@ export class UsersDB {
       null
       );
     };
-//--------------------------------------------------------------------------------------------------
-      // function deleteUser (id) {
-      //   db.transaction(tx => {
-      //     tx.executeSql('DELETE FROM USERS WHERE userID = ? ', [id],
-      //       (txObj, resultSet) => {
-      //         if (resultSet.rowsAffected > 0) {
-      //           let newList = this.state.users.filter(users => {
-      //             if (users.id === id)
-      //               return false
-      //             else
-      //               return true
-      //           })
-      //           this.setState({ users: newList })
-      //         }
-      //       })
-      //   })
-      // }
 };
